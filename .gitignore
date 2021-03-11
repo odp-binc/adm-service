@@ -1,0 +1,5 @@
+.env.json
+static_shinjuku/
+log/
+docs/
+fetch_test.sh

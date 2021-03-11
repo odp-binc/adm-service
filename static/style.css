@@ -1,0 +1,96 @@
+body {
+  font-family: sans-serif;
+  background-color: hsl(0, 0%, 94%);
+  color: rgb(17, 17, 17);
+  margin: 0;
+  padding: 0;
+  line-height: 1.7em;
+  font-size: 18px;
+  word-break: break-all;
+}
+.title {
+  padding: 0;
+  margin: 0;
+  background-color: hsl(0, 0%, 75%);
+}
+.lead {
+  padding: 0em 1em .5em 1em;
+  font-size: 90%;
+  line-height: 1.4em;
+}
+h1 {
+  padding: .5em;
+  margin: 0;
+  line-height: 1.2em;
+}
+h1 a {
+  text-decoration: none;
+}
+h1 span {
+  display: inline-block;
+}
+h2 {
+  padding: 0em;
+  margin: 0;
+}
+.search {
+  padding: .3em 1em;
+  background-color: hsl(0, 0%, 80%);
+}
+.search input[type=text] {
+  font-size: 18px;
+  margin: .5em;
+  padding: 0.2em;
+  width: 60%;
+}
+.search input[type=submit] {
+  font-size: 18px;
+  border: 1px solid white;
+  background-color: #ccc;
+  color: black;
+  margin: .5em;
+}
+.sitemap {
+  padding: .3em 1em;
+  background-color: hsl(0, 0%, 85%);
+}
+.item, .category, .topcategory {
+  background-color: hsl(0, 0%, 90%);
+  padding: 1em;
+}
+.topcategory {
+  font-weight: bold;
+  padding-bottom: 2em;
+  x-background-image: url("img/character.png");
+  background-size: auto 50%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.list {
+  background-color: hsl(0, 0%, 90%);
+  padding: 1em;
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid white;
+}
+th, td {
+  padding: .2em .3em;
+  vertical-align: top;
+  white-space: pre-wrap;
+}
+th:first-child, td:first-child {
+  white-space: nowrap;
+}
+.footer {
+  padding: 0.3em 1em;
+  background-color: hsl(0, 0%, 95%);
+}
+h3 {
+  margin: 0;
+  font-size: 80%;
+}
+a {
+  color: rgb(35, 35, 35) !important;
+}
+

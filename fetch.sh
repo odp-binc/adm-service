@@ -1,0 +1,1 @@
+curl 'https://sparql.odp.jig.jp/api/v1/sparql?output=json&from_browser=true&force-accept=text%2Fplain&query=select+*+%7B+GRAPH+%3Chttp%3A%2F%2Fodp.jig.jp%2Frdf%2Fjp%2Ftokyo%2Fshinjuku%2F941%3E+%7B+%3Fs+%3Fp+%3Fo+.+%7D+%7D' > data/data.json
