@@ -468,7 +468,9 @@ server.on('request', function(req, res) {
     res.write(makeUL(items, true))
     res.write("</div>")
 } else {
-    const layers = req.url.substring(1).split('/')
+    const nq = req.url.indexOf("?");
+    const nq2 = nq < 0 ? req.url.length : nq;
+    const layers = req.url.substring(1, nq2).split('/')
     for (let i = 0; i < layers.length; i++) {
       layers[i] = decodeURIComponent2(layers[i])
     }
